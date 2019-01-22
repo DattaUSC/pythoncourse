@@ -97,9 +97,9 @@ def exercise06():
 
     # ------ Place code below here \/ \/ \/ ------
     
-    hours_work = 20
+    hours_worked = 20
     wage_per_hour = 15
-    total_pay = hours_work + wage_per_hour
+    total_pay = hours_worked + wage_per_hour
 
     # ------ Place code above here /\ /\ /\ ------
     return hours_worked, wage_per_hour, total_pay
