@@ -32,6 +32,8 @@ def exercise01():
     # Create a variable x and set it to 5.
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    x = 5
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -42,6 +44,8 @@ def exercise02():
     # Create a string variable called name and set it to your first name.
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    name = "Deep"
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -52,6 +56,8 @@ def exercise03():
     # Create a string variable called sentence and assign it to an arbitrary sentence that contains at least 3 words
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    sentence = "I love Python!"
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -62,6 +68,9 @@ def exercise04():
     # Create two string variables. The first variable is called first_name, the second is last_name. Set both variables to your first name and last name respectively.
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    first_name = "Deep"
+    last_name = "Datta"
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -73,6 +82,10 @@ def exercise05():
     # Repeate exercise 4 here and assign the datatype of the variable first_name to a variable called name_type
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    first_name = "Deep"
+    last_name = "Datta"
+    name_type = type(first_name)
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -83,6 +96,10 @@ def exercise06():
     # Assign 20 to the variable hours_worked, 15 to the variable wage_per_hour and the product of the two to variable total_pay
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    hours_work = 20
+    wage_per_hour = 15
+    total_pay = hours_work + wage_per_hour
 
     # ------ Place code above here /\ /\ /\ ------
     return hours_worked, wage_per_hour, total_pay
@@ -91,6 +108,11 @@ def exercise06():
 def exercise07():
     # Create a variable wage and assign 17.0 to it. Print to the screen the datatype of wage. Create a second variable called doubled that prints to the screen 2 times wage
     # ------ Place code below here \/ \/ \/ ------
+    
+    wage = 17.0
+    print(type(wage))
+    doubled = wage * 2
+    print(doubled)
 
     # ------ Place code above here /\ /\ /\ ------
     return wage, doubled
@@ -100,6 +122,10 @@ def exercise08():
     # Assign 5 to the variable quantity, 'hello' to the variable hello and a variable hello_repeated that holds a string that contains whatever is contained in the variable hello repeated quantity times
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    quantity = 5
+    hello = "hello"
+    hello_repeated = str(hello) * quantity
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -110,6 +136,10 @@ def exercise09():
     # Assign 10 to a variable qty, 5 to a variable price and the product of the two to a variable total_cost
 
     # ------ Place code below here \/ \/ \/ ------
+    
+    qty = 10
+    price = 5
+    total_cost = qty * price
 
     # ------ Place code above here /\ /\ /\ ------
 
