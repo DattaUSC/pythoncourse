@@ -99,7 +99,7 @@ def exercise06():
     
     hours_worked = 20
     wage_per_hour = 15
-    total_pay = hours_worked + wage_per_hour
+    total_pay = hours_worked * wage_per_hour
 
     # ------ Place code above here /\ /\ /\ ------
     return hours_worked, wage_per_hour, total_pay
@@ -151,6 +151,14 @@ def exercise10():
 
     # ------ Place code below here \/ \/ \/ ------
 
+    factor1 = 1
+    factor2 = 2
+    factor3 = 3
+    factor4 = 4
+    factor5 = 5
+
+    product = factor1 * factor2 * factor3 * factor4 * factor5
+
     # ------ Place code above here /\ /\ /\ ------
 
     return factor1, factor2, factor3, factor4, factor5, product
@@ -161,6 +169,8 @@ def exercise11():
 
     # ------ Place code below here \/ \/ \/ ------
 
+    pi = 3.1415926535
+
     # ------ Place code above here /\ /\ /\ ------
     return pi
 
@@ -169,6 +179,9 @@ def exercise12():
     # Create a variable called x and set it to 10. Then create a variable y that equals to x to the 7th power
 
     # ------ Place code below here \/ \/ \/ ------
+
+    x = 10
+    y = x**7
 
     # ------ Place code above here /\ /\ /\ ------
     return x, y
@@ -180,6 +193,9 @@ def exercise13():
     pi = 3.14159
     # ------ Place code below here \/ \/ \/ ------
 
+    r = 7.0
+    volume_sphere = 4.0/3.0*pi* r**3
+
     # ------ Place code above here /\ /\ /\ ------
     return pi, r, volume_sphere
 
@@ -188,6 +204,11 @@ def exercise14():
     # Create a variables area, length, height. Set length and height equal to 50 and 10.2 respectively. Assign area to the product of length and height, assign the variable area_type to the datatype of area
 
     # ------ Place code below here \/ \/ \/ ------
+
+    length = 50
+    height = 10.2
+    area = length * height
+    area_type = type(area)
 
     # ------ Place code above here /\ /\ /\ ------
     return area, length, height, area_type
@@ -198,6 +219,10 @@ def exercise15():
 
     # ------ Place code below here \/ \/ \/ ------
 
+    speed_mph = 80.0
+    duration = 3
+    distance = speed_mph * duration
+
     # ------ Place code above here /\ /\ /\ ------
 
     return distance, speed_mph, duration
@@ -207,6 +232,10 @@ def exercise16():
     # Implement pythogorean thereom and find the length of hypotenuse c given sides a and b. Select any numbers for a and b. Use math.sqrt() for square root.
 
     # ------ Place code below here \/ \/ \/ ------
+
+    a = 6
+    b = 8
+    c =  math.sqrt(a) *  math.sqrt(b)
 
     # ------ Place code above here /\ /\ /\ ------
     return a, b, c
